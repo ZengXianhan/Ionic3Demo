@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Demo Page</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+</ion-content>
+
+
+<ion-content padding class="action-sheets-basic-page">
+
+  <div>
+    <h2>This is Demo Page</h2>
+    <p>
+      Need to Edit some content. 以下是一些常用控件的展示
+    </p>
+  </div>
+
+  <div>
+    <h5>弹出窗口控件用法</h5>
+  </div>
+
+  <div>
+    <button ion-button color="danger" (click)="openAlertBox()" padding>Show Alert Box</button>
+    <button ion-button round color="secondary" (click)="openPromptBox()" padding>Show Prompt Box</button>
+    <button ion-button outline color="primary" (click)="openConfirmBox()" padding>Show Comfirm Box</button>
+    <button ion-button color="clear" (click)="openRadioBox()" padding>Show Radio Box</button>
+    <button ion-button color="dark" (click)="openCheckbox()" padding>Show Radio Box</button>
+  </div>
+  <div>
+    
+  </div>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <button ion-button color="dark" block (click)="openMenu()">
+      <ion-icon name="arrow-up" padding></ion-icon>
+      弹出下拉动作窗口
+      <ion-icon name="arrow-up" padding></ion-icon>
+    </button>
+  </ion-toolbar>
+</ion-footer>
